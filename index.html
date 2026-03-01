@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkX Fitness — Workout & Nutrition Tracker for iPhone & Apple Watch</title>
+    <meta name="description" content="Track workouts, log meals with AI nutrition estimates, and monitor your progress — all from your iPhone and Apple Watch. Your data stays on your device.">
+    <meta name="theme-color" content="#FF6B35">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="WorkX Fitness">
+    <meta property="og:description" content="Track workouts, log meals with AI nutrition estimates, and monitor your progress — all from your iPhone and Apple Watch.">
+    <meta property="og:image" content="assets/icon-512.png">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+    <link rel="apple-touch-icon" href="assets/icon-512.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="container">
+            <img src="assets/icon-512.png" alt="WorkX Fitness app icon" class="hero-icon" width="120" height="120">
+            <h1>WorkX Fitness</h1>
+            <p class="tagline">Serious training. Simple tracking. Complete privacy.</p>
+            <p class="subtitle">Track workouts, log meals with AI nutrition estimates, and monitor your progress — all from your iPhone and Apple Watch. Your data stays on your device.</p>
+            <div class="cta-buttons">
+                <!-- App Store badge will go here once live -->
+                <a href="#features" class="btn btn-primary">See Features</a>
+                <a href="#support" class="btn btn-secondary">Get Support</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Everything you need. Nothing you don't.</h2>
+            <div class="feature-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon">&#128170;</div>
+                    <h3>Workout Tracking</h3>
+                    <p>Log sets with weight, reps, and intensity (RIR, RPE, or effort). Built-in rest timer with haptic alerts. See your previous performance inline so you always know what to beat.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">&#9201;</div>
+                    <h3>Apple Watch</h3>
+                    <p>Full companion app — control your entire workout from your wrist. Complete sets, adjust weight and reps with the Digital Crown, and get rest timer haptics.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">&#127858;</div>
+                    <h3>AI Nutrition</h3>
+                    <p>Log meals via text, voice, or photo. AI estimates calories and macros automatically. Build your personal food bank with autocomplete for fast logging.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">&#128200;</div>
+                    <h3>Analytics</h3>
+                    <p>Strength progression charts per exercise. Weekly muscle volume breakdown. Nutrition trends, body weight graphs with smoothed rolling averages, and progress photo timelines.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">&#128221;</div>
+                    <h3>Templates</h3>
+                    <p>Save reusable workout blueprints. Start new sessions from a template with one tap. Duplicate and customize variations for different training blocks.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">&#128274;</div>
+                    <h3>Privacy First</h3>
+                    <p>All data stored locally on your device. No account required. No tracking. No ads. Your workouts and nutrition data never leave your phone.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- More Details -->
+    <section class="details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="detail-item">
+                    <h3>Live Activity</h3>
+                    <p>See your current exercise, set progress, and rest timer on your Lock Screen and Dynamic Island without opening the app.</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Apple Health</h3>
+                    <p>Completed workouts are exported as strength training activities. Body weight syncs in both directions.</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Data Export</h3>
+                    <p>Export your workouts, meals, exercises, or all data as CSV, JSON, or Excel. Your data is yours.</p>
+                </div>
+                <div class="detail-item">
+                    <h3>Exercise Library</h3>
+                    <p>Built-in exercises organized by muscle group. Add your own with photos, videos, custom increments, and split-load support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support -->
+    <section id="support" class="support">
+        <div class="container">
+            <h2>Support</h2>
+            <p class="section-intro">Have a question or need help? Check the FAQ below or reach out directly.</p>
+
+            <div class="faq">
+                <details>
+                    <summary>How do I export my data?</summary>
+                    <p>Go to Settings &gt; Export Data. You can export workouts, meals, exercises, or everything as CSV, JSON, or Excel files. Multiple exports are bundled into a ZIP file.</p>
+                </details>
+                <details>
+                    <summary>How does AI nutrition estimation work?</summary>
+                    <p>When you log a meal using text or a photo, WorkX sends that input to a cloud service that estimates the calories and macronutrients. The meal data is processed in real time and is not stored on any server. You can also log meals manually without using the AI feature.</p>
+                </details>
+                <details>
+                    <summary>Does WorkX collect my data?</summary>
+                    <p>No. All your workout, nutrition, and measurement data is stored locally on your device using Apple's SwiftData framework. There is no user account, no analytics SDK, and no tracking. The only data that leaves your device is meal text or photos sent for AI nutrition estimation, which is processed in real time and not stored.</p>
+                </details>
+                <details>
+                    <summary>How do I sync with Apple Health?</summary>
+                    <p>Go to Settings &gt; Apple Health. WorkX can export completed workouts as strength training activities and sync body weight measurements in both directions. You'll be asked for permission the first time.</p>
+                </details>
+                <details>
+                    <summary>Can I use WorkX without an Apple Watch?</summary>
+                    <p>Yes. The Apple Watch companion app is optional. You can use all features of WorkX on your iPhone without a watch.</p>
+                </details>
+                <details>
+                    <summary>How do I set nutrition goals?</summary>
+                    <p>Go to Settings &gt; Nutrition Goals. You can set calorie and protein goals as fixed values, ranges, or body-weight multipliers. Your progress is shown on the daily meal view.</p>
+                </details>
+            </div>
+
+            <div class="contact">
+                <h3>Contact</h3>
+                <p>For questions, feedback, or bug reports, email us at:</p>
+                <a href="mailto:me@orshemtov.com" class="email-link">me@orshemtov.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy -->
+    <section id="privacy" class="privacy">
+        <div class="container">
+            <h2>Privacy Policy</h2>
+            <p class="policy-date">Last updated: March 1, 2026</p>
+
+            <div class="policy-content">
+                <h3>Overview</h3>
+                <p>WorkX Fitness ("WorkX", "the app") is designed with privacy as a core principle. Your fitness and nutrition data belongs to you and stays on your device.</p>
+
+                <h3>Data Storage</h3>
+                <p>All data you create in WorkX — including workouts, exercises, meal logs, body measurements, and progress photos — is stored locally on your device using Apple's SwiftData framework. This data is not transmitted to any external server, with the sole exception described in the "AI Nutrition Estimation" section below.</p>
+
+                <h3>No User Account</h3>
+                <p>WorkX does not require or offer user account creation. There is no sign-up, no login, and no user profile stored on any server.</p>
+
+                <h3>AI Nutrition Estimation</h3>
+                <p>WorkX offers an optional AI-powered nutrition estimation feature. When you use this feature, the text or photo you provide for meal logging is sent to a cloud-based service (hosted on Supabase) for real-time processing. This data is used solely to generate calorie and macronutrient estimates and is not stored on the server after processing is complete. You can choose to log meals manually without using the AI feature.</p>
+
+                <h3>Apple Health Integration</h3>
+                <p>WorkX can integrate with Apple Health (HealthKit) to read and write body weight measurements and to export completed workouts as strength training activities. This integration is optional and requires your explicit permission. Data shared with Apple Health is governed by Apple's privacy policies.</p>
+
+                <h3>Apple Watch</h3>
+                <p>If you use the WorkX Apple Watch companion app, workout data is synced between your iPhone and Apple Watch over a direct, private connection (WatchConnectivity and HealthKit Workout Mirroring). No data passes through external servers.</p>
+
+                <h3>Analytics and Tracking</h3>
+                <p>WorkX does not include any analytics SDKs, crash reporting tools, advertising frameworks, or user tracking mechanisms. No usage data, device identifiers, or behavioral information is collected or transmitted.</p>
+
+                <h3>Third-Party Services</h3>
+                <p>The only third-party service used by WorkX is the cloud-based AI nutrition estimation service described above. No other third-party services receive your data.</p>
+
+                <h3>Data Deletion</h3>
+                <p>Since all data is stored locally on your device, you can delete it at any time by deleting individual records within the app or by uninstalling the app entirely. There is no server-side data to request deletion of.</p>
+
+                <h3>Children's Privacy</h3>
+                <p>WorkX is not directed at children under the age of 13. We do not knowingly collect personal information from children.</p>
+
+                <h3>Changes to This Policy</h3>
+                <p>If this privacy policy is updated, the revised version will be posted on this page with an updated date. Continued use of the app after changes constitutes acceptance of the revised policy.</p>
+
+                <h3>Contact</h3>
+                <p>If you have questions about this privacy policy, contact us at <a href="mailto:me@orshemtov.com">me@orshemtov.com</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/icon-192.png" alt="WorkX Fitness" width="40" height="40" class="footer-icon">
+                    <span>WorkX Fitness</span>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#features">Features</a>
+                    <a href="#support">Support</a>
+                    <a href="#privacy">Privacy Policy</a>
+                </nav>
+                <p class="footer-copy">&copy; 2026 Or Shem Tov. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
