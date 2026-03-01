@@ -191,15 +191,13 @@ a:hover {
     line-height: 1.6;
 }
 
-.feature-card ul {
-    padding: 0;
-    margin: 0;
+.feature-list {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.feature-card li {
+.feature-item {
     display: flex;
     align-items: baseline;
     gap: 10px;
@@ -208,7 +206,7 @@ a:hover {
     line-height: 1.5;
 }
 
-.feature-card li::before {
+.feature-item::before {
     content: '\2014';
     color: var(--accent);
     flex-shrink: 0;
