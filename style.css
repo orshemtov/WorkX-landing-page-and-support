@@ -192,8 +192,7 @@ a:hover {
 }
 
 .feature-card ul {
-    list-style: none !important;
-    padding: 0 !important;
+    padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -201,23 +200,19 @@ a:hover {
 }
 
 .feature-card li {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
     color: var(--text-secondary);
     font-size: 0.95rem;
     line-height: 1.5;
-    padding-left: 18px;
-    position: relative;
-    list-style: none !important;
 }
 
 .feature-card li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 9px;
-    width: 8px;
-    height: 2px;
-    background: var(--accent);
-    border-radius: 1px;
+    content: '\2014';
+    color: var(--accent);
+    flex-shrink: 0;
+    font-weight: 700;
 }
 
 /* ========== Details ========== */
