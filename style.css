@@ -227,20 +227,22 @@ a:hover {
 .support h2 {
     font-size: 2.2rem;
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .section-intro {
     color: var(--text-secondary);
     margin-bottom: 40px;
     font-size: 1.05rem;
+    text-align: center;
 }
 
 .faq {
     max-width: 720px;
+    margin: 0 auto 48px;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    margin-bottom: 48px;
 }
 
 details {
@@ -298,6 +300,7 @@ details p {
 
 .contact {
     padding-top: 16px;
+    text-align: center;
 }
 
 .contact h3 {
@@ -331,16 +334,19 @@ details p {
 .privacy h2 {
     font-size: 2.2rem;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .policy-date {
     color: var(--text-muted);
     font-size: 0.9rem;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .policy-content {
     max-width: 720px;
+    margin: 0 auto;
 }
 
 .policy-content h3 {
